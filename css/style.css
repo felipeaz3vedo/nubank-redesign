@@ -15,4 +15,14 @@ body {
   height: 100vh;
   position: relative;
   background-color: #1a1a1a;
+}
+
+svg,
+img {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid red;
 }/*# sourceMappingURL=style.css.map */
