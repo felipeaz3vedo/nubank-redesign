@@ -20,10 +20,8 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-
-  // scroll-behavior: smooth;
-
-  background-color: #1a1a1a;
+  scroll-behavior: smooth;
+  background-color: white;
 }
 
 svg,
