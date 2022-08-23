@@ -5,26 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nubank</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/img/nubank-logo.png">
+  <script src="./js/svg-inject.min.js"></script>
+  <title>Nubank</title>
 </head>
 
 <body>
   <header id="header">
     <nav class="navbar-mobile">
       <div class="bx" id="bx"></div>
-      <div class="logo"></div>
+
+      <div class="logo">
+        <a href="#"><img src="./svg/logonu.svg" alt="Logomarca do Nubank" onload="SVGInject(this)"></a>
+      </div>
+
       <a href="" class="login">Login</a>
     </nav>
 
     <nav class="navbar-desktop ">
       <div class="navbar-desktop-item-1">
-        <div class="logo"></div>
+        <div class="logo">
+          <a href="#"><img src="./svg/logonu.svg" alt="Logomarca do Nubank" onload="SVGInject(this)"></a>
+        </div>
         <ul class="menu-desktop">
           <li class="menu-item" id="menu-item-1">
             <a href="" class="nav-link-desktop">Nubank</a>
@@ -55,7 +63,7 @@
         </ul>
       </div>
       <div class="navbar-desktop-item-2">
-        <a href="" class="btn">Quero ser Nubank</a>
+        <a href="" class="btn mr-2">Quero ser Nubank</a>
         <a href="">Login</a>
       </div>
     </nav>
@@ -67,7 +75,14 @@
         <li><a href="" class="nav-link-mobile">Conta Digital</a></li>
         <li><a href="" class="nav-link-mobile">Pra você</a></li>
         <li><a href="" class="nav-link-mobile">Quero ser Nubank</a></li>
-        <li><a href="" class="nav-link-mobile">REDES SOCIAIS</a></li>
+        <li><a href="" class="nav-link-mobile">Redes Sociais</a></li>
+
+        <li class="mt-3">
+          <a href="#"><img src="./svg/icon-facebook.svg" alt="Logomarca do Facebook" onload="SVGInject(this)"></a>
+          <a href="#"><img src="./svg/icon-youtube.svg" alt="Logomarca do Youtube" onload="SVGInject(this)"></a>
+          <a href="#"><img src="./svg/icon-instagram.svg" alt="Logomarca do Istagram" onload="SVGInject(this)"></a>
+          <a href="#"><img src="./svg/icon-twitter.svg" alt="Logomarca do Twitter" onload="SVGInject(this)"></a>
+        </li>
       </ul>
     </nav>
 
